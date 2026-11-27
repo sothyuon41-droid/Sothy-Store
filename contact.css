@@ -1,0 +1,53 @@
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding: 25px auto;
+}
+
+.tittle{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact{
+    max-width: 600px;
+    margin: auto;
+}
+
+.mb-3{
+    margin: 15px auto;
+}
+
+input, label, textarea{
+    display: block;
+    width: 100%;
+    margin: 2px auto;
+
+}
+
+.contact input, .contact textarea{
+    padding: 10px 8px;
+    border: 1px solid violet;
+
+}
+
+.contact input:focus,
+.contact textarea:focus{
+    border: 1px solid purple;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: purple;
+    border: 1px solid purple;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: auto;
+    display: block;
+}
+
+.btn:hover{
+    color: white;
+    background-color: violet;
+}

@@ -1,0 +1,22 @@
+.small-container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 25px;
+    padding-bottom: 25px;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 50px;
+    color: purple;
+}
+
+p{
+    text-align: center;
+    color: violet;
+}
+
+.para{
+    margin: 20px auto;
+    text-align: center;
+}

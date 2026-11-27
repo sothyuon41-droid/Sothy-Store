@@ -1,0 +1,168 @@
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    width: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 50px;
+    margin: 25px 0;
+}
+
+p{
+    color: purple;
+}
+
+.btn{
+    background-color:violet;
+    color: black;
+    padding: 8px 30px;
+    border-radius: 30px;
+    margin: 30px 0;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    background-color: brown;
+}
+
+.categories{
+    margin: 50px 0px;
+
+}
+
+.small-categories{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.col-3{
+    width: 30%;
+    min-width: 200px;
+
+}
+
+.col-3 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.categories .row > .col-3{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.small-container{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.categories .row > .col-3 > .col-3{
+    flex: 0 0 30%;
+    width: 30%;
+    min-width: 0;
+}
+
+.categories .row > .col-3 > .col-3 img{
+    height: auto;
+    object-fit: contain;
+}
+
+.tittle{
+    text-align: center;
+    margin: 80px auto;
+    color: violet;
+
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.col-4{
+    flex: 0 0 22%;
+    min-width: 0;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: all 0.3s;
+}
+
+.col-4 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.rating .fa-solid{
+    color: violet;
+    font-size: 16px;
+}
+
+.col-4 p{
+    font-size: 14px;
+}
+
+.col-4 a{
+    text-decoration: none;
+    color: purple;
+}
+
+.col-4 h4{
+    font-weight: normal;
+}
+
+.col-4:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px){
+    .col-2{
+        width: 90%;
+        text-align: center;
+    }
+
+    .row{
+        margin: 40px auto;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .categories .row > .col-3{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .categories .row > .col-3 > .col-3{
+        flex: 0 0 90%;
+        width: 90%;
+    }
+
+    .col-4{
+        flex: 0 0 45%;
+        min-width: 0;
+    }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu,shopping_bag" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "../css/header.css">
+    <link rel="stylesheet" href = "../css/products.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="./index.html">Sothy Store</a>
+                </div>
+                <div class="menu">
+                    <nav id="menuItem">
+                        <a href="./index.html">Home</a>
+                        <a href="./products.html">Products</a>
+                        <a href="./about.html">About</a>
+                        <a href="./contact.html">Contact</a>
+                    </nav>
+                    <a href="./cart.html"><span class="shopping-icon material-symbols-outlined">shopping_bag</span></a>
+                    <button id="btnToggle" type="button" aria-label="Toggle navigation" aria-controls="mobile-navbar" aria-expanded="false"><span class="material-symbols-outlined">menu</span></button>
+                </div>
+            </div>
+            <nav id="mobile-navbar">
+                <a href="./index.html">Home</a>
+                <a href="./products.html">Products</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+    </div>
+    <div class="small-container">
+        <h2 class="tittle">All Products</h2>
+        <div class="grid grid-cols-4">
+           <div class="card">
+                <a href="" alt="">
+                    <img src="../image/product1.webp" alt="">
+                </a>
+                <p>T-Shirt</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>5$</p>
+           </div>
+           <div class="card">
+                <a href="" alt="">
+                    <img src="../image/product2.webp" alt="">
+                </a>
+                <p>Grey-Shoes</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>5$</p>
+           </div>
+           <div class="card">
+                <a href="" alt="">
+                    <img src="../image/product3.webp" alt="">
+                </a>
+                <p>Women-Trouser</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>5$</p>
+           </div>
+           <div class="card">
+                <a href="" alt="">
+                    <img src="../image/product4.webp" alt="">
+                </a>
+                <p>Hat</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>5$</p>
+           </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+    <!--==========footer========-->
+    <div class="footer">
+        <p class="copyright">Copy right 2026 - Sothy Store</p>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

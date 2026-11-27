@@ -1,0 +1,9 @@
+.footer{
+    background-color: violet;
+    padding: 40px;
+}
+
+.footer .copyright{
+    color: purple;
+    text-align: center;
+}
